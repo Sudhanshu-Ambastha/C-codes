@@ -10,7 +10,7 @@ int main() {
     // Check if the number is within the 2-digit range
     if (num < 10 || num > 99) {
         printf("Please enter a valid 2-digit number.\n");
-        return 1;
+        return 0;
     }
 
     // Extract the tens and ones place
