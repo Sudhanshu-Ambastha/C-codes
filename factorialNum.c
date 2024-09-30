@@ -20,6 +20,5 @@ int factorialNum(){
 int main() {
     int a;
     a=factorialNum();
-    printf("Enter num:%d", a);
     return 0;
 }
