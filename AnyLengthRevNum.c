@@ -1,20 +1,23 @@
 #include <stdio.h>
-#include <math.h>
 
-int main() {
-    int num, rev = 0, temp, firstDigit, lastDigit, digits;
+void reverseNumber(int num)
+{
+    int reversed = 0;
+    while (num != 0)
+    {
+        reversed = reversed * 10 + num % 10;
+        num /= 10;
+    }
+    printf("Reversed number: %d\n", reversed);
+}
 
-    printf("Enter any number: ");
+int main()
+{
+    int num;
+    printf("Enter a number: ");
     scanf("%d", &num);
 
-    temp = num;
-    digits = (int)log10(num) + 1;
-    lastDigit = num % 10;
-    firstDigit = num / pow(10, digits - 1);
-    rev = (lastDigit * pow(10, digits - 1)) + (num % (int)pow(10, digits - 1)) - lastDigit + firstDigit;
-
-    printf("Original number = %d\n", num);
-    printf("Number after swapping first and last digits: %d\n", rev);
+    reverseNumber(num);
 
     return 0;
 }
