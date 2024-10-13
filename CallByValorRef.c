@@ -18,7 +18,7 @@ int main() {
     printf("Before call by value:%d\n", a);
     addByValue(a);
     printf("After call by value:%d\n", a);
-    
+    printf("\n");
     //call by reference 
     printf("Before call by reference:%d\n",b);
     addByReference(&b);
