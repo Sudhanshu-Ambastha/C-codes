@@ -17,7 +17,7 @@ int main() {
     } else if (num % 2 == 0) {
         isPrime = 0;  // Even numbers > 2 are not prime
     } else {
-        for (long long i = 3; i <= sqrt(num); i += 2) {  // Check only odd numbers
+        for (long long i = 3; i <= sqrt(num); i++) {  // Check only odd numbers
             if (num % i == 0) {
                 isPrime = 0;  
             }
