@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 struct bankdata {
-    int AN;
+    int AN; //Account 
     char name[30];
-    int BAL;
+    int BAL; //Balance 
 };
 
 int main() {
