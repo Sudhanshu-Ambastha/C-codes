@@ -1,0 +1,8 @@
+Plans
+Basic 0.50 50 500
+Standard 0.30 200 2000
+Premium 0.20 500 10000
+Unlimited 1.00 -1 -1
+Customers
+s 2345678913 0 0.00 Basic 0.50 50 500
+s 1234567891 0 0.00 Basic 0.50 50 500
