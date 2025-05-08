@@ -27,7 +27,7 @@ void multiplyMatrices(int a[2][2], int a2[2][2], int result[2][2]) {
 void divideMatrices(int a[2][2], int a2[2][2], int result[2][2]) {
     for (int i = 0; i < 2; i++) {
         for (int j = 0; j < 2; j++) {
-            if (a2[i][j] != 0) { 
+            if (a[2][2] != 0 && a2[i][j] != 0) { 
                 result[i][j] = a[i][j] / a2[i][j];
             } else {
                 printf("Division by zero at element [%d][%d]!\n", i, j);
